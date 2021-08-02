@@ -13,17 +13,13 @@ namespace Get_Factorial
         }
         static void Main(string[] args)
         {
-            Console.Write("请输入一个数字：");
+            Console.Write("请输入一个大于等于零的数字：");
             try
             {
                 uint number = Convert.ToUInt32(Console.ReadLine());
                 Console.WriteLine("{0}的阶乘是：{1}。", number, GetFactorial(number));
             }
-            catch (FormatException)
-            {
-                Console.WriteLine("输入错误。");
-            }
-            catch (OverflowException)
+            catch
             {
                 Console.WriteLine("输入错误。");
             }
