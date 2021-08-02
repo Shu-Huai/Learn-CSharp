@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello World!", "Hello World
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Variable Type", "Variable Type\Variable Type.csproj", "{AD5D48F7-891A-4014-B0F8-D5D7A40B6F02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Get Factorial", "Get Factorial\Get Factorial.csproj", "{7EED1399-BE6A-4CA1-AB69-7CE17F212536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Get Factorial", "Get Factorial\Get Factorial.csproj", "{7EED1399-BE6A-4CA1-AB69-7CE17F212536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Input And Output", "Input And Output\Input And Output.csproj", "{89F19078-C5AD-48DD-9F13-BA42E75D5A3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Input And Output", "Input And Output\Input And Output.csproj", "{89F19078-C5AD-48DD-9F13-BA42E75D5A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Convert", "Test Convert\Test Convert.csproj", "{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{89F19078-C5AD-48DD-9F13-BA42E75D5A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89F19078-C5AD-48DD-9F13-BA42E75D5A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89F19078-C5AD-48DD-9F13-BA42E75D5A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

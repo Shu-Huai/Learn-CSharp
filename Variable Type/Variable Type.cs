@@ -14,11 +14,12 @@ namespace Variable_Type
             ulong ulongVariable = 4;
             long longVariable = -4;
             float floatVariable = 5.1F;
-            double doubleVariable = 6.1;
+            double doubleVariable = 6.2;
             char charVariable = 'A';
             string stringVariable = "Hello World!";
             decimal decimalVariable = 7M;
             bool boolVariable = true;
+            var varVariable = 8.3;
             Console.WriteLine("byte变量是：{0}。\nsbyte变量是：{1}。", byteVariable, sbyteVariable);
             Console.WriteLine("无符号短整型变量是：{0}。\n短整型变量是：{1}。", ushortVariable, shortVariable);
             Console.WriteLine("无符号整型变量是：{0}。\n整型变量是：{1}。", uintVariable, intVariable);
@@ -27,6 +28,7 @@ namespace Variable_Type
             Console.WriteLine("字符变量是：{0}。\n字符串变量是：{1}。", charVariable, stringVariable);
             Console.WriteLine("decimal变量是：{0}。", decimalVariable);
             Console.WriteLine("布尔变量是：{0}。", boolVariable);
+            Console.WriteLine("var变量是：{0}，类型是{1}。", varVariable, varVariable.GetType());
         }
     }
 }
