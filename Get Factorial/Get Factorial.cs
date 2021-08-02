@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Get_Factorial
 {
-    class Program
+    class GetFactorialClass
     {
         static double GetFactorial(int n)
         {

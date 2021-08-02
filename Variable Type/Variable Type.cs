@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Variable_Type
 {
-    class Program
+    class VariableType
     {
         static void Main(string[] args)
         {
