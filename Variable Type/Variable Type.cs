@@ -5,20 +5,28 @@ namespace Variable_Type
     {
         static void Main(string[] args)
         {
-            int intVariable = 2;
-            float floatVariable = 2.1F;
-            double doubleVariable = 2.2;
-            long longVariable = 3;
+            byte byteVariable = 1;
+            sbyte sbyteVariable = -1;
+            ushort ushortVariable = 2;
+            short shortVariable = -2;
+            uint uintVariable = 3;
+            int intVariable = -3;
+            ulong ulongVariable = 4;
+            long longVariable = -4;
+            float floatVariable = 5.1F;
+            double doubleVariable = 6.1;
             char charVariable = 'A';
             string stringVariable = "Hello World!";
-            decimal decimalVariable = 4M;
-            Console.WriteLine("整型变量是：{0}。", intVariable);
-            Console.WriteLine("单精度浮点变量是：{0}。", floatVariable);
-            Console.WriteLine("双精度浮点变量是：{0}。", doubleVariable);
-            Console.WriteLine("长整型变量是：{0}。", longVariable);
-            Console.WriteLine("字符变量是：{0}。", charVariable);
-            Console.WriteLine("字符串变量是：{0}。", stringVariable);
+            decimal decimalVariable = 7M;
+            bool boolVariable = true;
+            Console.WriteLine("byte变量是：{0}。\nsbyte变量是：{1}。", byteVariable, sbyteVariable);
+            Console.WriteLine("无符号短整型变量是：{0}。\n短整型变量是：{1}。", ushortVariable, shortVariable);
+            Console.WriteLine("无符号整型变量是：{0}。\n整型变量是：{1}。", uintVariable, intVariable);
+            Console.WriteLine("无符号长整型变量是：{0}。\n长整型变量是：{1}。", ulongVariable, longVariable);
+            Console.WriteLine("单精度浮点变量是：{0}。\n双精度浮点变量是：{1}。", floatVariable, doubleVariable);
+            Console.WriteLine("字符变量是：{0}。\n字符串变量是：{1}。", charVariable, stringVariable);
             Console.WriteLine("decimal变量是：{0}。", decimalVariable);
+            Console.WriteLine("布尔变量是：{0}。", boolVariable);
         }
     }
 }
