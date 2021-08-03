@@ -3,7 +3,7 @@ namespace Test_Convert
 {
     class TestConvert
     {
-        static void Main(string[] args)
+        static void Main()
         {
             int intVariable = Convert.ToInt32("1234");
             double doubleVariable = Convert.ToDouble("123.4");

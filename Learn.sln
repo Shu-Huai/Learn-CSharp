@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "Foreach\Foreach.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Random", "Test Random\Test Random.csproj", "{DC1F3098-4496-4E66-AF12-B35E23D55D39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Student Struct", "Student Struct\Student Struct.csproj", "{1EA8CE9D-699A-467A-9DEF-9A5B0ACBAEE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Function", "Test Function\Test Function.csproj", "{D0BD01F5-C026-46AE-8722-609504810AC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA8CE9D-699A-467A-9DEF-9A5B0ACBAEE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA8CE9D-699A-467A-9DEF-9A5B0ACBAEE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA8CE9D-699A-467A-9DEF-9A5B0ACBAEE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA8CE9D-699A-467A-9DEF-9A5B0ACBAEE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BD01F5-C026-46AE-8722-609504810AC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD01F5-C026-46AE-8722-609504810AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD01F5-C026-46AE-8722-609504810AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD01F5-C026-46AE-8722-609504810AC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

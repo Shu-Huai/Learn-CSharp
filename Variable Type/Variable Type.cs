@@ -3,7 +3,7 @@ namespace Variable_Type
 {
     class VariableType
     {
-        static void Main(string[] args)
+        static void Main()
         {
             byte byteVariable = 1;
             sbyte sbyteVariable = -1;

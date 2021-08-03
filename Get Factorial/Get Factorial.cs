@@ -3,7 +3,7 @@ namespace Get_Factorial
 {
     class GetFactorialClass
     {
-        static double GetFactorial(uint n)
+        public static double GetFactorial(uint n)
         {
             if (n == 0 || n == 1)
             {
@@ -11,7 +11,7 @@ namespace Get_Factorial
             }
             return n * GetFactorial(n - 1);
         }
-        static void Main(string[] args)
+        static void Main()
         {
             Console.Write("请输入一个大于等于零的数字：");
             if (uint.TryParse(Console.ReadLine(), out uint number))

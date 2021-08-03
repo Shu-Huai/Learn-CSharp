@@ -3,7 +3,7 @@ namespace Test_Random
 {
     class TestRandom
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Random randomGetter = new Random();
             Console.WriteLine(randomGetter);
