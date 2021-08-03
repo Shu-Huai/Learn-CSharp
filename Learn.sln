@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Input And Output", "Input A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Convert", "Test Convert\Test Convert.csproj", "{A54A94D6-C732-4BEA-84D4-4A8EB748E28E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach", "Foreach\Foreach.csproj", "{2C975788-51F0-44E2-AF19-06998BE3C786}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foreach", "Foreach\Foreach.csproj", "{2C975788-51F0-44E2-AF19-06998BE3C786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Random", "Test Random\Test Random.csproj", "{DC1F3098-4496-4E66-AF12-B35E23D55D39}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{2C975788-51F0-44E2-AF19-06998BE3C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C975788-51F0-44E2-AF19-06998BE3C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C975788-51F0-44E2-AF19-06998BE3C786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC1F3098-4496-4E66-AF12-B35E23D55D39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -14,12 +14,11 @@ namespace Get_Factorial
         static void Main(string[] args)
         {
             Console.Write("请输入一个大于等于零的数字：");
-            try
+            if (uint.TryParse(Console.ReadLine(), out uint number))
             {
-                uint number = Convert.ToUInt32(Console.ReadLine());
                 Console.WriteLine("{0}的阶乘是：{1}。", number, GetFactorial(number));
             }
-            catch
+            else
             {
                 Console.WriteLine("输入错误。");
             }
