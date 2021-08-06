@@ -16,17 +16,17 @@ namespace Flight_Game
         public static void DisplayTitle()
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
-            Console.WriteLine("**********************");
+            Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("**********************");
+            Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("**********************");
+            Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.Blue;
-            Console.WriteLine("********飞行棋********");
+            Console.WriteLine("***************************飞行棋***************************");
             Console.ForegroundColor = ConsoleColor.Cyan;
-            Console.WriteLine("**********************");
+            Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.DarkMagenta;
-            Console.WriteLine("**********************");
+            Console.WriteLine("************************************************************");
             Console.ForegroundColor = ConsoleColor.White;
         }
         public static void InitializeMap()
