@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Class", "Test Class\Te
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Inherit", "Test Inherit\Test Inherit.csproj", "{F4424F1E-6943-4CF9-B74C-4355E26D14E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Container", "Test Container\Test Container.csproj", "{D96F5B42-AEA4-4691-B8C5-FE0AC3690668}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test Container", "Test Container\Test Container.csproj", "{D96F5B42-AEA4-4691-B8C5-FE0AC3690668}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test File", "Test File\Test File.csproj", "{779BBDF5-D7BF-4D2E-A408-2FFD59B3A3B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test File", "Test File\Test File.csproj", "{779BBDF5-D7BF-4D2E-A408-2FFD59B3A3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test Serialize", "Test Serialize\Test Serialize.csproj", "{966E3B2E-995E-46E8-B783-7E0347423151}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{779BBDF5-D7BF-4D2E-A408-2FFD59B3A3B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{779BBDF5-D7BF-4D2E-A408-2FFD59B3A3B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{779BBDF5-D7BF-4D2E-A408-2FFD59B3A3B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966E3B2E-995E-46E8-B783-7E0347423151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966E3B2E-995E-46E8-B783-7E0347423151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966E3B2E-995E-46E8-B783-7E0347423151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966E3B2E-995E-46E8-B783-7E0347423151}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

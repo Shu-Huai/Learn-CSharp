@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Runtime.Serialization;
+
 namespace Test_Class
 {
+    [Serializable]
+    [KnownType(typeof(Person))]
     public class Person
     {
         private int age_;
