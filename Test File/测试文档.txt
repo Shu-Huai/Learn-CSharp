@@ -4,10 +4,17 @@ using (FileStream writeFile = new("测试文档.txt", FileMode.OpenOrCreate, Fil
     writeFile.Write(buffer);
     Console.WriteLine("写入了{0}字节数据。", buffer.Length);
 }
-using (FileStream readFile = new("测试文档.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite))
+using (FileStream readFile = new("测试文档.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite);
+int bufferSize = 512;
+int size = bufferSize;
+int count = 0;
+while (size == bufferSize)
 {
-    byte[] buffer = new byte[1024];
-    int size = readFile.Read(buffer);
+    byte[] buffer = new byte[bufferSize];
+    size = readFile.Read(buffer);
     string text = Encoding.Default.GetString(buffer, 0, size);
-    Console.WriteLine("读出了{0}字节数据，数据是：\n“\n{1}\n”。", size, text);
+    count++;
+    Console.WriteLine("第{0}次，读出了{1}字节数据，数据是：\n“\n{2}\n”。", count, size, text);
+});
+    }
 }
