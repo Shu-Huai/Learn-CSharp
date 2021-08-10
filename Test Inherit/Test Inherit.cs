@@ -14,31 +14,26 @@ namespace Test_Inherit
                 {
                     case 0:
                         persons[i] = new Beast();
-                        ((Beast)persons[i]).DescribeSelf();
                         break;
                     case 1:
                         persons[i] = new Man();
-                        ((Man)persons[i]).DescribeSelf();
                         break;
                     case 2:
                         persons[i] = new Person();
-                        persons[i].DescribeSelf();
                         break;
                     case 3:
                         persons[i] = new Student();
-                        ((Student)persons[i]).DescribeSelf();
                         break;
                     case 4:
                         persons[i] = new Teacher();
-                        ((Teacher)persons[i]).DescribeSelf();
                         break;
                     case 5:
                         persons[i] = new Woman();
-                        ((Woman)persons[i]).DescribeSelf();
                         break;
                     default:
                         break;
                 }
+                persons[i].DescribeSelf();
             }
         }
     }
