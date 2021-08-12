@@ -8,6 +8,7 @@ namespace Do_You_Love_Me
         public MainForm()
         {
             InitializeComponent();
+            timeLabel.Text = $"当前时间{DateTime.Now}。";
         }
         private void MoveMouse(object sender, System.EventArgs e)
         {
@@ -21,7 +22,9 @@ namespace Do_You_Love_Me
                 || (xCoordinate > noButton.Location.X - noButton.Width && xCoordinate < noButton.Location.X + noButton.Width
                 && yCoordinate > noButton.Location.Y - noButton.Height && yCoordinate < noButton.Location.Y + noButton.Height)
                 || (xCoordinate > questionLabel.Location.X - noButton.Width && xCoordinate < questionLabel.Location.X + questionLabel.Width
-                && yCoordinate > questionLabel.Location.Y - noButton.Height && yCoordinate < questionLabel.Location.Y + questionLabel.Height))
+                && yCoordinate > questionLabel.Location.Y - noButton.Height && yCoordinate < questionLabel.Location.Y + questionLabel.Height)
+                || (xCoordinate > timeLabel.Location.X - noButton.Width && xCoordinate < timeLabel.Location.X + timeLabel.Width
+                && yCoordinate > timeLabel.Location.Y - noButton.Height && yCoordinate < timeLabel.Location.Y + timeLabel.Height))
             {
                 xCoordinate = randomGetter.Next(0, maxWidth);
                 yCoordinate = randomGetter.Next(0, maxHeight);
@@ -32,6 +35,10 @@ namespace Do_You_Love_Me
         {
             MessageBox.Show("我也爱你。");
             Close();
+        }
+        private void DisplayTime(object sender, EventArgs e)
+        {
+            timeLabel.Text = $"当前时间{DateTime.Now}。";
         }
     }
 }
