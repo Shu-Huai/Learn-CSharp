@@ -32,7 +32,6 @@ namespace Date_Selector
             this.yearCombo = new System.Windows.Forms.ComboBox();
             this.monthCombo = new System.Windows.Forms.ComboBox();
             this.dayCombo = new System.Windows.Forms.ComboBox();
-            this.calender = new System.Windows.Forms.MonthCalendar();
             this.SuspendLayout();
             // 
             // yearCombo
@@ -69,24 +68,16 @@ namespace Date_Selector
             this.dayCombo.Name = "dayCombo";
             this.dayCombo.Size = new System.Drawing.Size(121, 24);
             this.dayCombo.TabIndex = 2;
-            this.dayCombo.SelectedIndexChanged += new System.EventHandler(this.ShowInCalender);
-            // 
-            // calender
-            // 
-            this.calender.Location = new System.Drawing.Point(90, 48);
-            this.calender.Name = "calender";
-            this.calender.TabIndex = 3;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(398, 239);
-            this.Controls.Add(this.calender);
+            this.ClientSize = new System.Drawing.Size(398, 49);
             this.Controls.Add(this.dayCombo);
             this.Controls.Add(this.monthCombo);
             this.Controls.Add(this.yearCombo);
-            this.MinimumSize = new System.Drawing.Size(414, 278);
+            this.MinimumSize = new System.Drawing.Size(414, 88);
             this.Name = "MainForm";
             this.Text = "日期选择器";
             this.ResumeLayout(false);
@@ -98,7 +89,6 @@ namespace Date_Selector
         private System.Windows.Forms.ComboBox yearCombo;
         private System.Windows.Forms.ComboBox monthCombo;
         private System.Windows.Forms.ComboBox dayCombo;
-        private System.Windows.Forms.MonthCalendar calender;
     }
 }
 
