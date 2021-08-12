@@ -4,9 +4,9 @@ using System.Xml;
 using Test_Class;
 namespace Test_Serialize
 {
-    class TestSerialize
+    class Program
     {
-        private static void Main()
+        public static void Main()
         {
             Person person = new("吕陟赫", 18, '男');
             using MemoryStream serializeMemory = new();

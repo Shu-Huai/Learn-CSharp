@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Test_Convert
 {
-    class TestConvert
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             int intVariable = Convert.ToInt32("1234");
             double doubleVariable = Convert.ToDouble("123.4");

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 namespace Test_Container
 {
-    class TestContainer
+    class Program
     {
-        private static void Main()
+        public static void Main()
         {
             Console.Write("请输入一句话：");
             string sentence = Console.ReadLine();

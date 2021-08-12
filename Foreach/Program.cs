@@ -1,7 +1,7 @@
 ﻿using System;
 namespace Foreach
 {
-    class Foreach
+    class Program
     {
         static void Main()
         {

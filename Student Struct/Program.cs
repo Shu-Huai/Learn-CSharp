@@ -1,5 +1,4 @@
-﻿using System;
-namespace Student_Struct
+﻿namespace Student_Struct
 {
     public enum Gender
     {
@@ -12,9 +11,9 @@ namespace Student_Struct
         public int age_;
         public Gender gender_;
     }
-    class StudentStruct
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             Student me;
             me.name_ = "吕陟赫";

@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Test_Class
 {
-    class TestClass
+    class Program
     {
-        private static void Main()
+        public static void Main()
         {
             Person person = new("吕陟赫", 18, '男');
             Console.WriteLine(person);

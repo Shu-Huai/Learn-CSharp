@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Variable_Type
 {
-    class VariableType
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             byte byteVariable = 1;
             sbyte sbyteVariable = -1;

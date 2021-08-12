@@ -2,7 +2,7 @@ using System;
 using System.Windows.Forms;
 namespace WinForms_Hello_World_
 {
-    static class WinFormsHelloWorld
+    static class Program
     {
         [STAThread]
         public static void Main()

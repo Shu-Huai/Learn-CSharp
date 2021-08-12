@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Input_And_Output
 {
-    class InputAndOutput
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("整型变量是：{0:0100}。\n双精度浮点变量是：{1:*0.00}。", 3, 6.1);
             Console.Write("请输入你的名字：");

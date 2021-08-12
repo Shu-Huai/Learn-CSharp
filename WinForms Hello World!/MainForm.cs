@@ -7,6 +7,9 @@ namespace WinForms_Hello_World_
         {
             InitializeComponent();
         }
-
+        private void RejectHelloWorld(object sender, System.EventArgs e)
+        {
+            MessageBox.Show("Hello World!");
+        }
     }
 }

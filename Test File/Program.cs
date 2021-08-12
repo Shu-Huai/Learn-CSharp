@@ -3,9 +3,9 @@ using System.IO;
 using System.Text;
 namespace Test_File
 {
-    class TestFile
+    class Program
     {
-        private static void Main()
+        public static void Main()
         {
             using (FileStream writeFile = new("测试文档.txt", FileMode.OpenOrCreate, FileAccess.ReadWrite))
             {

@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Security.Cryptography;
 using System.Text;
-
 namespace MD5_Encryption
 {
-    class MD5Encryption
+    class Program
     {
         public static string GetMD5(string source)
         {
@@ -17,7 +16,7 @@ namespace MD5_Encryption
             }
             return result.ToString();
         }
-        private static void Main()
+        public static void Main()
         {
             Console.Write("请输入一个密码：");
             Console.WriteLine("加密结果是：{0}。", GetMD5(Console.ReadLine()));

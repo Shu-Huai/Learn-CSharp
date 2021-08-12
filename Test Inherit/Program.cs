@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Test_Inherit
 {
-    class TestInherit
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             Person[] persons = new Person[10];
             Random randomGetter = new();

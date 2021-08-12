@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Hello_World_
 {
-    class HelloWorld
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("Hello World!");
         }

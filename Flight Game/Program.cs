@@ -2,7 +2,7 @@
 using System.Linq;
 namespace Flight_Game
 {
-    class FlightGame
+    class Program
     {
         public static int[] map_ = new int[100];
         public static Player[] players_ = new Player[2];
@@ -247,7 +247,7 @@ namespace Flight_Game
             Console.WriteLine("{0}行动完了。", players_[playerNumber].name_);
             Console.ReadKey(true);
         }
-        static void Main()
+        public static void Main()
         {
             InitializeMap();
             DisplayTitle();

@@ -1,17 +1,8 @@
-﻿
-namespace WinForms_Hello_World_
+﻿namespace WinForms_Hello_World_
 {
     partial class MainForm
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
         private System.ComponentModel.IContainer components = null;
-
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,7 +11,6 @@ namespace WinForms_Hello_World_
             }
             base.Dispose(disposing);
         }
-
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -29,34 +19,33 @@ namespace WinForms_Hello_World_
         /// </summary>
         private void InitializeComponent()
         {
-            this.helloWorldLabel = new System.Windows.Forms.Label();
+            this.button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // helloWorldLabel
+            // button
             // 
-            this.helloWorldLabel.AutoSize = true;
-            this.helloWorldLabel.Location = new System.Drawing.Point(12, 9);
-            this.helloWorldLabel.Name = "helloWorldLabel";
-            this.helloWorldLabel.Size = new System.Drawing.Size(82, 17);
-            this.helloWorldLabel.TabIndex = 0;
-            this.helloWorldLabel.Text = "Hello World!";
+            this.button.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.button.Location = new System.Drawing.Point(12, 12);
+            this.button.Name = "button";
+            this.button.Size = new System.Drawing.Size(80, 23);
+            this.button.TabIndex = 0;
+            this.button.Text = "按钮";
+            this.button.UseVisualStyleBackColor = true;
+            this.button.Click += new System.EventHandler(this.RejectHelloWorld);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.helloWorldLabel);
+            this.ClientSize = new System.Drawing.Size(324, 198);
+            this.Controls.Add(this.button);
             this.Name = "MainForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label helloWorldLabel;
+        private System.Windows.Forms.Button button;
     }
 }
-

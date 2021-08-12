@@ -2,7 +2,7 @@
 using System.Linq;
 namespace Test_Function
 {
-    class TestFunction
+    class Program
     {
         public static int GetMax(int firstNumber, int secondNumber)
         {
@@ -51,7 +51,7 @@ namespace Test_Function
             }
             Loop(times, maxTimes);
         }
-        static void Main()
+        public static void Main()
         {
             Console.WriteLine("3和5的最大值是：{0}。", GetMax(3, 5));
             int[] list = new int[5] { 1, 2, 3, 4, 5 };

@@ -2,9 +2,9 @@
 using System.Collections;
 namespace Test_Random
 {
-    class TestRandom
+    class Program
     {
-        static void Main()
+        public static void Main()
         {
             int top = 0;
             bool isSuccess = false;
