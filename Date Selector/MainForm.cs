@@ -26,7 +26,7 @@ namespace Date_Selector
             dayCombo.Items.Clear();
             int year = int.Parse(yearCombo.SelectedItem.ToString().Split(new char[] { '年' }, StringSplitOptions.RemoveEmptyEntries)[0]);
             int month = int.Parse(monthCombo.SelectedItem.ToString().Split(new char[] { '月' }, StringSplitOptions.RemoveEmptyEntries)[0]);
-            int day = 0;
+            int day;
             switch (month)
             {
                 case 1:
