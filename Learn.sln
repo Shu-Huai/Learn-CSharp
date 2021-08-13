@@ -45,6 +45,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple TXT Editor", "Simple
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Date Selector", "Date Selector\Date Selector.csproj", "{F15018B2-214C-43A0-85BE-ECB8D5A1DB7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{E2FDA96C-C044-4D74-A1EF-4746E95BC37E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{42B7FD10-4DA8-42BF-90DB-4564B8273FE4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{F15018B2-214C-43A0-85BE-ECB8D5A1DB7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F15018B2-214C-43A0-85BE-ECB8D5A1DB7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F15018B2-214C-43A0-85BE-ECB8D5A1DB7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FDA96C-C044-4D74-A1EF-4746E95BC37E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FDA96C-C044-4D74-A1EF-4746E95BC37E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FDA96C-C044-4D74-A1EF-4746E95BC37E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FDA96C-C044-4D74-A1EF-4746E95BC37E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B7FD10-4DA8-42BF-90DB-4564B8273FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B7FD10-4DA8-42BF-90DB-4564B8273FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B7FD10-4DA8-42BF-90DB-4564B8273FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B7FD10-4DA8-42BF-90DB-4564B8273FE4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
