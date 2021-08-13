@@ -80,7 +80,8 @@ namespace Client
             // 
             // logEditor
             // 
-            this.logEditor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.logEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.logEditor.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.logEditor.Location = new System.Drawing.Point(12, 44);
@@ -88,21 +89,20 @@ namespace Client
             this.logEditor.Name = "logEditor";
             this.logEditor.ReadOnly = true;
             this.logEditor.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.logEditor.Size = new System.Drawing.Size(920, 140);
+            this.logEditor.Size = new System.Drawing.Size(920, 307);
             this.logEditor.TabIndex = 4;
             this.logEditor.WordWrap = false;
             // 
             // messageEditor
             // 
-            this.messageEditor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.messageEditor.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.messageEditor.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.messageEditor.Location = new System.Drawing.Point(12, 190);
+            this.messageEditor.Location = new System.Drawing.Point(12, 357);
             this.messageEditor.Multiline = true;
             this.messageEditor.Name = "messageEditor";
             this.messageEditor.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.messageEditor.Size = new System.Drawing.Size(920, 267);
+            this.messageEditor.Size = new System.Drawing.Size(920, 100);
             this.messageEditor.TabIndex = 5;
             this.messageEditor.WordWrap = false;
             // 
